@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .header-beige {
@@ -131,7 +132,10 @@
 .button-class {
     background-color: #89693c;
     color: white;
-}
+    width: auto; 
+    height: 40px; 
+    font-size: 16px;
+    padding: 10px 20px; }
 
 .footer-class {
     background-color: #e8dcc1;
