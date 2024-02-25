@@ -25,6 +25,14 @@
     font-weight: bold;
 }
 
+@media screen and (max-width:768px) {
+    .nav-class{
+	display: flex; /*adjusts size of menu to screensize*/
+	flex-direction: column;
+	align-items: center;
+    }
+}
+
 .nav-link-class {
     color: #f5f5dc;
 }
